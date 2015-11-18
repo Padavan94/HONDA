@@ -1,1 +1,88 @@
 @import "bourbon/bourbon";
+
+//variables
+$main-gray: #4e4e4e;
+
+
+
+//header block
+.header{
+	font-family: "Opensans-r";
+	color: $main-gray;
+	height: 65px;
+	@include display(flex);
+	align-items: center;
+	&__container{
+		@include display(flex);
+		align-items: center;
+		align-content: center;
+	}
+	&__description{
+		font-size: 12px;
+		h1{
+			font-family: "Opensans-b";
+			font-size: 12px;
+			color: #717171;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+	}
+	&__logo{
+		text-align: center;
+	}
+	&__search{
+		font-family: "Proxima-r";
+	}
+}
+
+//navigation block
+.navigation{
+	background-color: $main-gray;
+	background-image: url("../img/bg-nav.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__container{
+		@include display(flex);
+		height: 280px;
+	}
+	&__item{
+		@include display(flex);
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		font-family: "Proxima-l";
+		&:hover{
+			background-color: #ed1c2f;
+		}
+	}
+	&__button{
+		display: inline-block;
+
+	}
+}
+
+.main-slider{
+	position: relative;
+	.control{
+		width: 67px;
+		height: 67px;
+		opacity: 76%;
+		position: absolute;
+		top: 50%;
+		margin-top: -33px;
+	}
+	&__prev{
+		right: 148px;
+	}
+	&__next{
+		left: 148px;
+	}
+	height: auto;
+	&__slide{
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}

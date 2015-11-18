@@ -1,2 +1,8 @@
 @import "bourbon/bourbon";
-@include font-face("Champagne-r", "../fonts/Champagne & Limousines", normal, $file-formats: ttf);
+
+@include font-face("Opensans-r", "../fonts/OpenSans/Open Sans 600", normal, $file-formats: ttf);
+@include font-face("Opensans-b", "../fonts/OpenSans/Open Sans 800", normal, $file-formats: ttf);
+
+@include font-face("Proxima-r", "../fonts/Proxima/Proxima Nova Regular", normal, $file-formats: ttf);
+@include font-face("Proxima-l", "../fonts/Proxima/Proxima Nova Light", normal, $file-formats: ttf);
+

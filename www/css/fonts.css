@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Opensans-r";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/Open Sans 600.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans-b";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/Open Sans 800.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-r";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/Proxima Nova Extra Condensed Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-l";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/Proxima Nova Extra Condensed Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-sb";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/Proxima Nova Extra Condensed Semibold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-b";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/Proxima Nova Extra Condensed Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/Proxima Nova Extra Condensed Black.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

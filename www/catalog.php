@@ -4,22 +4,8 @@
 
 <div class="main-wrapper clearfix">
 	<div class="container">
-		<!-- top-catalog-slider start -->
-		<div class="top-catalog-slider clearfix">
-			<div class=" top-catalog-slider__item">
-				<img class="status" src="img/hit.png" height="105" width="104" alt="hit">
-			</div>
-			<div class=" top-catalog-slider__item">
-				asdasd
-			</div>
-			<div class=" top-catalog-slider__item">
-				asdasd
-			</div>
-			<div class=" top-catalog-slider__item">
-				asdasd
-			</div>
-		</div>
-		<!-- top-catalog-slider end -->
+		<?php include("templates/catalog-top-slider.php") ?>
+		
 	</div>
 </div>
 

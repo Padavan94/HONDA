@@ -524,10 +524,14 @@ a{
 //catalog page
 
 .top-catalog-slider{
+	padding: 4px;
 	&__item{
 		background-color: #fff;
-		height: 442px;
 		position: relative;
+		padding: 30px 23px 120px 23px;
+		color: $main-gray;
+		border-bottom: 5px solid #dbdbdb;
+		font-size: 18px;
 		.status{
 			position: absolute;
 			top: -6px;
@@ -535,5 +539,95 @@ a{
 			height: 104px;
 			width: 104px;
 		}
+		.photo{
+			text-align: center;
+			padding: 0 0 11px 0;
+			img{
+				width: 70%;
+				height: auto;
+				display: inline-block;
+			}
+		}
+		.name{
+			font-size: 18px;
+			font-family: "Opensans-sb";
+			margin-bottom: 20px;
+		}
+		.old-price{
+			text-decoration: line-through;
+			font-size: 14px;
+			margin-bottom: 6px;
+		}
+		.price{
+			font-family: "Opensans-b";
+			font-size: 24px;
+			color: $main-red;
+		}
+		.order{
+			font-family: "Opensans-b";
+			width: 160px;
+			display: inline-block;
+			padding: 12px 0 12px 16px;
+			position: absolute;
+			left:0;
+			bottom: 60px;
+			background-color: #e6e6e6;
+			color: #828282;
+			@include transition(all 0.4s ease-in-out);
+			.phone{
+				width: 47px;
+				background-color: #d4d4d4;
+				position: absolute;
+				top:0;
+				right: 0;
+				height: 100%;
+				@include transition(all 0.4s ease-in-out);
+				svg{
+					position: absolute;
+					top: 0;left: 0;
+					right: 0; bottom: 0;
+					margin: auto;
+				}
+				svg path{
+					@include transition(all 0.4s ease-in-out);
+				}
+			}
+			&:hover{
+				background-color: $main-red;
+				width: 100%;
+				color: #fff;
+			}
+			&:hover .phone{
+				background-color: #b80011;
+			}
+			&:hover svg path{
+				fill: #fff !important;
+			}
+		}
+		.more{
+			font-size: 22px;
+			color: $main-gray;
+			text-decoration: underline;
+			display: inline-block;
+			position: absolute;
+			text-transform: uppercase;
+			bottom: 16px;
+			left: 23px;
+			font-family: "Proxima-l";
+			@include transition(all 0.2s ease-in-out);
+			&:hover{
+				color: $main-red;
+			}
+			&:hover i{
+				left: 10px;
+			}
+			i{
+				@include transition(all 0.3s ease-in-out);
+				position: relative;
+				left: 6px;
+				color: $main-red;
+			}
+		}
+
 	}
 }

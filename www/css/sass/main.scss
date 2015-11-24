@@ -69,7 +69,7 @@ a{
 		&-row{
 			@include display(flex);
 			justify-content: space-between;
-			align-items: center;
+			align-items: inherit;
 			&-input{
 				border: none;
 				height: 27px;
@@ -504,9 +504,36 @@ a{
 		text-align: right;
 		svg{
 			margin-left: 17px;
+			width: 40px;
+			height: 40px;
 			&:hover path{
 				fill: $main-red !important;
 			}
+		}
+	}
+}
+
+.main-wrapper{
+	background-color: #efefef;
+	padding: 72px 0 151px 0;
+	background-image: url("../img/main-wrapper-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+//catalog page
+
+.top-catalog-slider{
+	&__item{
+		background-color: #fff;
+		height: 442px;
+		position: relative;
+		.status{
+			position: absolute;
+			top: -6px;
+			left: -6px;
+			height: 104px;
+			width: 104px;
 		}
 	}
 }

@@ -4,6 +4,12 @@ $(document).ready(function() {
 	    items: 1,
 	    dots: true,
 	});
+    $(".top-catalog-slider").owlCarousel({
+        loop:true,
+        items: 4,
+        margin: 30,
+        dots: false
+    });
 
     var owl = $('.main-slider');
     owl.owlCarousel();

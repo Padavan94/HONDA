@@ -69,7 +69,7 @@ a:hover {
       display: -ms-flexbox;
       display: flex;
       justify-content: space-between;
-      align-items: center; }
+      align-items: inherit; }
       .header__search-row-input {
         border: none;
         height: 27px;
@@ -495,8 +495,28 @@ a:hover {
   .footer__social-links {
     text-align: right; }
     .footer__social-links svg {
-      margin-left: 17px; }
+      margin-left: 17px;
+      width: 40px;
+      height: 40px; }
       .footer__social-links svg:hover path {
         fill: #ed1c2f !important; }
+
+.main-wrapper {
+  background-color: #efefef;
+  padding: 72px 0 151px 0;
+  background-image: url("../img/main-wrapper-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.top-catalog-slider__item {
+  background-color: #fff;
+  height: 442px;
+  position: relative; }
+  .top-catalog-slider__item .status {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    height: 104px;
+    width: 104px; }
 
 /*# sourceMappingURL=main.css.map */

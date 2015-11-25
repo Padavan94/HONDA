@@ -3,7 +3,7 @@
 @include font-face("Opensans-r", "../fonts/OpenSans/Open Sans 600", normal, $file-formats: ttf);
 @include font-face("Opensans-b", "../fonts/OpenSans/Open Sans 800", normal, $file-formats: ttf);
 @include font-face("Opensans-sb", "../fonts/OpenSans/Open Sans 700", normal, $file-formats: ttf);
-
+@include font-face("Opensans-l", "../fonts/OpenSans/Open Sans 300", normal, $file-formats: ttf);
 
 @include font-face("Proxima-r", "../fonts/Proxima/Proxima Nova Extra Condensed Regular", normal, $file-formats: ttf);
 @include font-face("Proxima-l", "../fonts/Proxima/Proxima Nova Extra Condensed Light", normal, $file-formats: ttf);

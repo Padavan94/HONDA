@@ -524,7 +524,7 @@ a{
 //catalog page
 
 .top-catalog-slider{
-	padding: 4px;
+	padding-top: 4px;
 	&__item{
 		background-color: #fff;
 		position: relative;
@@ -626,8 +626,39 @@ a{
 				position: relative;
 				left: 6px;
 				color: $main-red;
+				font-family: "Opensans-l";
+
 			}
 		}
 
+	}
+}
+
+.top-filter-tape{
+	height: 76px;
+	background-color: #fff;
+	@include display(flex);
+	border-bottom: 5px solid #dbdbdb;
+	align-items: center;
+	justify-content: space-around;
+	svg{
+		margin-right: 10px;
+		position: relative;
+		top: 2px;
+		display: inline-block;
+		@include transition(all 0.4s ease-in-out);
+	}
+	
+	&__filter{
+		font-size: 14px;
+		color: #000003;
+		text-decoration: underline;
+		@include transition(all 0.4s ease-in-out);
+		&:hover{
+			color: $main-red;
+		}
+		&:hover svg{
+			transform: rotate(180deg);
+		}
 	}
 }

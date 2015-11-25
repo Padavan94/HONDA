@@ -509,7 +509,7 @@ a:hover {
   background-size: cover; }
 
 .top-catalog-slider {
-  padding: 4px; }
+  padding-top: 4px; }
   .top-catalog-slider__item {
     background-color: #fff;
     position: relative;
@@ -607,6 +607,40 @@ a:hover {
         transition: all 0.3s ease-in-out;
         position: relative;
         left: 6px;
-        color: #ed1c2f; }
+        color: #ed1c2f;
+        font-family: "Opensans-l"; }
+
+.top-filter-tape {
+  height: 76px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 5px solid #dbdbdb;
+  align-items: center;
+  justify-content: space-around; }
+  .top-filter-tape svg {
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+  .top-filter-tape__filter {
+    font-size: 14px;
+    color: #000003;
+    text-decoration: underline;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .top-filter-tape__filter:hover {
+      color: #ed1c2f; }
+    .top-filter-tape__filter:hover svg {
+      transform: rotate(180deg); }
 
 /*# sourceMappingURL=main.css.map */

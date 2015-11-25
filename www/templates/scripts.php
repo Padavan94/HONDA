@@ -4,6 +4,7 @@
 <script src="libs/validation/jquery.validate.min.js"></script>
 <script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="libs/owl-carousel2/owl.carousel.min.js"></script>
+<script src="libs/metis/metisMenu.min.js"></script>
 <script src="js/common.js"></script>
 <!-- scripts end -->
 

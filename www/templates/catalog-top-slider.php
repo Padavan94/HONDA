@@ -1,7 +1,7 @@
 ﻿<!-- top-catalog-slider start -->
-<div class="top-catalog-slider clearfix">
+<div class="top-catalog-slider clearfix col-md-12">
 	<!-- slider-item start -->
-	<div class=" top-catalog-slider__item">
+	<div class=" top-catalog-slider__item ">
 		<div class="status">
 			<img src="img/hit.png" alt="hit">
 		</div>
@@ -29,7 +29,7 @@
 	</div>
 	<!-- slider-item end -->
 	<!-- slider-item start -->
-	<div class=" top-catalog-slider__item">
+	<div class=" top-catalog-slider__item ">
 		<div class="status">
 			<img src="img/akcii.png" alt="akcii">
 		</div>
@@ -57,7 +57,7 @@
 	</div>
 	<!-- slider-item end -->
 	<!-- slider-item start -->
-	<div class=" top-catalog-slider__item">
+	<div class=" top-catalog-slider__item ">
 		<div class="status">
 			<img src="img/hit.png" alt="hit">
 		</div>
@@ -85,7 +85,7 @@
 	</div>
 	<!-- slider-item end -->
 	<!-- slider-item start -->
-	<div class=" top-catalog-slider__item">
+	<div class=" top-catalog-slider__item ">
 		<div class="status">
 			<img src="img/akcii.png" alt="akcii">
 		</div>
@@ -113,7 +113,7 @@
 	</div>
 	<!-- slider-item end -->
 	<!-- slider-item start -->
-	<div class=" top-catalog-slider__item">
+	<div class=" top-catalog-slider__item ">
 		<div class="status">
 			<img src="img/hit.png" alt="hit">
 		</div>
@@ -141,7 +141,7 @@
 	</div>
 	<!-- slider-item end -->
 	<!-- slider-item start -->
-	<div class=" top-catalog-slider__item">
+	<div class=" top-catalog-slider__item ">
 		<div class="status">
 			<img src="img/akcii.png" alt="akcii">
 		</div>

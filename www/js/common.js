@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(".top-catalog-slider").owlCarousel({
         loop:true,
         items: 4,
-        margin: 30,
+        margin: 31,
         dots: false
     });
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
         owl.trigger('prev.owl.carousel', [300]);
     })
 
-
+    $('#menu').metisMenu();
     
 
 	forSVG();

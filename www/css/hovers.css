@@ -38,14 +38,17 @@
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
   color: white;
 }
-.hvr-shutter-out-vertical:hover .navigation__button, .hvr-shutter-out-vertical:focus .navigation__button, .hvr-shutter-out-vertical:active  .navigation__button{
+.hvr-shutter-out-vertical:hover .navigation__button, .hvr-shutter-out-vertical:focus .navigation__button, .hvr-shutter-out-vertical:active  .navigation__button,
+.hvr-shutter-out-vertical:hover .price-page__button, .hvr-shutter-out-vertical:focus .price-page__button, .hvr-shutter-out-vertical:active  .price-page__button{
   border: 1px solid #fff;
   padding: 3px 12px;
   text-decoration: none;
 }
-.hvr-shutter-out-vertical:hover .navigation__borders, .hvr-shutter-out-vertical:focus .navigation__borders, .hvr-shutter-out-vertical:active  .navigation__borders{
+.hvr-shutter-out-vertical:hover .navigation__borders, .hvr-shutter-out-vertical:focus .navigation__borders, .hvr-shutter-out-vertical:active  .navigation__borders,
+.hvr-shutter-out-vertical:hover .price-page__borders, .hvr-shutter-out-vertical:focus .price-page__borders, .hvr-shutter-out-vertical:active  .price-page__borders{
   opacity: 1;
 }
+.hvr-shutter-out-vertical:hover .navigation__inner-nav, .hvr-shutter-out-vertical:focus .navigation__inner-nav, .hvr-shutter-out-vertical:active  .navigation__inner-nav,
 .hvr-shutter-out-vertical:hover .navigation__inner-nav, .hvr-shutter-out-vertical:focus .navigation__inner-nav, .hvr-shutter-out-vertical:active  .navigation__inner-nav{
   display: -webkit-box;
   display: -moz-box;

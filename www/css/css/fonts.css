@@ -9,6 +9,16 @@
   font-weight: normal;
   src: url("../fonts/OpenSans/Open Sans 800.ttf") format("truetype"); }
 @font-face {
+  font-family: "Opensans-sb";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/Open Sans 700.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans-l";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/Open Sans 300.ttf") format("truetype"); }
+@font-face {
   font-family: "Proxima-r";
   font-style: normal;
   font-weight: normal;

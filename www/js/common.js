@@ -10,7 +10,6 @@ $(document).ready(function() {
         margin: 31,
         dots: false
     });
-
     var owl = $('.main-slider');
     owl.owlCarousel();
     // Go to the next item
@@ -25,7 +24,32 @@ $(document).ready(function() {
     })
 
     $('#menu').metisMenu();
-    
+    $('.show-more').click(function() {
+        $(this).slideUp("slow");
+        $(this).parent().parent().find("li").removeClass('hidden');
+    });
+
+
+    $('[data-countdown]').each(function() {
+       var $this = $(this), finalDate = $(this).data('countdown');
+       $this.countdown(finalDate, function(event) {
+            $this.html(event.strftime(
+                '<div class="descr-wrap">'+
+                    'До конца акции осталось'+
+                '</div>'+
+                '<div class="clock-wrap clearfix">'+
+                    '<div class="days"><div class="bord">%d</div><div class="descr">Дней</div></div>'+
+                    '<div class="hours"><div class="bord">%H</div><div class="descr">Часов</div></div>'+
+                    '<div class="min"><div class="bord">%M</div><div class="descr">Минут</div></div>'+
+                    '<div class="sec"><div class="bord">%S</div><div class="descr">Секунд</div></div>'+
+                '</div>'
+            ));
+        });
+    });
+
+    $('.product-tile').masonry({
+      itemSelector: '.item'
+    });
 
 	forSVG();
 });

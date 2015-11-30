@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="libs/owl-carousel2/owl.carousel.css">
 		<link rel="stylesheet" href="libs/owl-carousel2/owl.theme.css">
-	
 		<link rel="stylesheet" href="css/hovers.css">
 		<link rel="stylesheet" href="css/main.css">
 			

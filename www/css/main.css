@@ -1108,4 +1108,171 @@ body {
     font-family: "Opensans-l";
     padding: 26px 0; }
 
+.order-detail {
+  max-width: 570px; }
+  .order-detail__header {
+    height: 62px;
+    background-color: #ed1c2f;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Proxima-b";
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/popup-bg.png");
+    background-position: 10% center;
+    background-size: auto 100%;
+    background-repeat: no-repeat; }
+  .order-detail__body {
+    padding: 40px;
+    background-color: #fff;
+    color: #a7a7a7; }
+  .order-detail__form--input {
+    margin-bottom: 13px;
+    position: relative;
+    font-family: "Opensans-l"; }
+    .order-detail__form--input:before {
+      content: "*";
+      color: #ed1c2f;
+      font-size: 19px;
+      display: block;
+      position: absolute;
+      left: -13px;
+      top: 15px; }
+    .order-detail__form--input input {
+      font-size: 18px;
+      height: 48px;
+      background-color: #f6f6f6;
+      border: none;
+      width: 100%;
+      padding: 0 18px;
+      position: relative; }
+  .order-detail__form--textarea textarea {
+    font-family: "Opensans-l";
+    font-size: 18px;
+    height: 157px;
+    background-color: #f6f6f6;
+    border: none;
+    width: 100%;
+    padding: 18px;
+    position: relative;
+    resize: none; }
+  .order-detail__form--select {
+    margin-bottom: 13px;
+    position: relative;
+    font-family: "Opensans-r"; }
+    .order-detail__form--select:before {
+      content: "*";
+      color: #ed1c2f;
+      font-size: 19px;
+      display: block;
+      position: absolute;
+      left: -13px;
+      top: 15px;
+      font-family: "Opensans-l"; }
+    .order-detail__form--select select {
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+      border: 1px solid #cfcfcf;
+      background-color: #f6f6f6;
+      height: 48px;
+      /* @include linear-gradient(bottom, #cfcfcf, #f6f6f6); */
+      width: 100%;
+      padding: 0 18px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      background-image: url("../img/select-bg.png");
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: auto 100%;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      .order-detail__form--select select:hover {
+        background-position: right 7px; }
+  .order-detail__submit--capcha img {
+    width: 100%;
+    height: auto; }
+  .order-detail__submit--capcha input {
+    width: 100%;
+    height: 20px;
+    padding: 4px;
+    font-size: 13px; }
+  .order-detail__submit--button input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Proxima-b";
+    border: none;
+    background-color: #ed1c2f;
+    height: 43px;
+    letter-spacing: 1px; }
+    .order-detail__submit--button input:hover {
+      background-color: #4e4e4e; }
+  .order-detail__important {
+    margin-bottom: 22px; }
+    .order-detail__important span {
+      color: #ed1c2f;
+      font-size: 20px;
+      font-family: "Opensans-l"; }
+
+.testdrive__header--mod {
+  background-image: url("../img/search2.png");
+  background-position: 28% center;
+  background-size: auto 74%; }
+
+.callback__header--mod {
+  background-image: url("../img/phone.png");
+  background-position: 23% center;
+  background-size: auto 58%; }
+
+.thank-box {
+  max-width: 507px;
+  padding: 41px 55px;
+  background-color: #efefef;
+  background-image: url("../img/popbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  .thank-box__ty {
+    font-size: 24px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #4e4e4e;
+    font-family: "Proxima-b";
+    text-transform: uppercase; }
+  .thank-box__message {
+    font-family: "Proxima-r";
+    font-size: 25px;
+    padding: 15px 0 35px 0; }
+  .thank-box__respect {
+    font-family: "Opensans-i";
+    color: #5d5d5d;
+    font-size: 14px; }
+    .thank-box__respect i {
+      color: #ed1c2f;
+      margin-right: 5px;
+      font-size: 19px; }
+
 /*# sourceMappingURL=main.css.map */

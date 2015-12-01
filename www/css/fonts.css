@@ -19,6 +19,11 @@
   font-weight: normal;
   src: url("../fonts/OpenSans/Open Sans 300.ttf") format("truetype"); }
 @font-face {
+  font-family: "Opensans-i";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/Open Sans 600italic.ttf") format("truetype"); }
+@font-face {
   font-family: "Proxima-r";
   font-style: normal;
   font-weight: normal;

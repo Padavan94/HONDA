@@ -1,23 +1,64 @@
 $(document).ready(function() {
+    $('.open-popup').magnificPopup({
+      type:'inline',
+      midClick: true
+    });
+
 	$(".main-slider").owlCarousel({
 	    loop:true,
 	    items: 1,
 	    dots: true,
+        autoplay: false
 	});
-    $(".top-catalog-slider").owlCarousel({
+    $(".bottom-slider").owlCarousel({
+        loop:true,
+        items: 3,
+        margin: 31,
+        dots: false,
+        autoplay: false
+    });
+     $(".product__image--slider").owlCarousel({
+        loop:true,
+        items: 3,
+        margin: 20,
+        dots: false,
+        autoplay: false
+    });
+    $(".slider").owlCarousel({
         loop:true,
         items: 4,
         margin: 31,
-        dots: false
+        dots: false,
+        autoplay: false
     });
+
+    
     var owl = $('.main-slider');
+    var owl2 = $('.product__slider');
     owl.owlCarousel();
+    owl2.owlCarousel({
+        loop:true,
+        items: 3,
+        margin: 20,
+        dots: false,
+        autoplay: false
+    });
     // Go to the next item
-    $('.main-slider__next').click(function() {
+    $('.product__slider-wrapper .next').click(function() {
+        owl2.trigger('next.owl.carousel');
+    })
+    // Go to the previous item
+    $('.product__slider-wrapper .prev').click(function() {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        owl2.trigger('prev.owl.carousel', [300]);
+    })
+    // Go to the next item
+    $('.main-slider__next, .product__slider-wrapper .next').click(function() {
         owl.trigger('next.owl.carousel');
     })
     // Go to the previous item
-    $('.main-slider__prev').click(function() {
+    $('.main-slider__prev, .product__slider-wrapper .prev').click(function() {
         // With optional speed parameter
         // Parameters has to be in square bracket '[]'
         owl.trigger('prev.owl.carousel', [300]);
@@ -47,8 +88,14 @@ $(document).ready(function() {
         });
     });
 
-    $('.product-tile').masonry({
+    /*$('.product-tile').masonry({
       itemSelector: '.item'
+    });*/
+
+    //create acardion
+    $(".product__acardion--header").click(function() {
+        $(this).next(".product__acardion--hidden").slideToggle("slow").toggleClass('active');
+       
     });
 
 	forSVG();

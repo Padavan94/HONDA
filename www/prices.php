@@ -68,6 +68,6 @@
 		</div>
 	</div>
 </div>
-<?php include("templates/fortuna-group.php") ?>
+
 <?php include("templates/footer.php") ?>
 <?php include("templates/scripts.php") ?>

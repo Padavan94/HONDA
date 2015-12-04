@@ -10,7 +10,7 @@
 			<img class="svg" src="img/squares.svg" alt="svg"><span>Плитка</span>
 		</a>
 	</div>
-	<div class="top-filter-tape__filter col-md-3">
+	<div class="top-filter-tape__filter col-md-2">
 		<a href="#">
 			<img class="svg" src="img/dollar.svg" alt="dollar">
 			<span>По цене</span>
@@ -22,31 +22,9 @@
 		</span>
 		<!-- submenu end -->
 	</div>
-	<div class="top-filter-tape__filter col-md-3">
+	<div class="col-md-4 top-filter-tape__filter">
 		<a href="#">
-			<span>По мощности</span>
-		</a>
-	</div>
-</div>
-<div class="top-filter-tape">
-	<div class="col-md-3 top-filter-tape__filter">
-		<a href="#">
-			<span>По объёму</span>
-		</a>
-	</div>
-	<div class="col-md-3 top-filter-tape__filter">
-		<a href="#">
-			<span>По мощности</span>
-		</a>
-	</div>
-	<div class="col-md-3 top-filter-tape__filter">
-		<a href="#">
-			<span>По чему то еще</span>
-		</a>
-	</div>
-	<div class="col-md-3 top-filter-tape__filter">
-		<a href="#">
-			<span>Товаров на странице</span>
+			<img class="svg" src="img/prod.svg" alt="svg"><span>Товаров на странице</span>
 		</a>
 		<!-- submenu start -->
 		<span class="top-filter-tape__filter-menu">
@@ -58,4 +36,5 @@
 		<!-- submenu end -->
 	</div>
 </div>
+
 <!-- filters end -->

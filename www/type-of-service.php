@@ -25,8 +25,8 @@
 					</div>
 					<div class="servise-type">
 						<div class="servise-type__top">
-							<h3>Сервис Авто</h3>
-							<img class="svg" src="img/service1.svg" alt="service">
+							<h3>Сервис Мото</h3>
+							<img class="svg" src="img/types/motoserv.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -37,8 +37,8 @@
 					</div>
 					<div class="servise-type">
 						<div class="servise-type__top">
-							<h3>Сервис Авто</h3>
-							<img class="svg" src="img/service1.svg" alt="service">
+							<h3>Сервис Силовая Техника</h3>
+							<img class="svg" src="img/types/gbo.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -49,8 +49,8 @@
 					</div>
 					<div class="servise-type">
 						<div class="servise-type__top">
-							<h3>Сервис Авто</h3>
-							<img class="svg" src="img/service1.svg" alt="service">
+							<h3>Авто запчасти</h3>
+							<img class="svg" src="img/types/gbo.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -61,8 +61,8 @@
 					</div>
 					<div class="servise-type">
 						<div class="servise-type__top">
-							<h3>Сервис Авто</h3>
-							<img class="svg" src="img/service1.svg" alt="service">
+							<h3>Кузовной ремонт</h3>
+							<img class="svg" src="img/types/kuzov.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -73,8 +73,20 @@
 					</div>
 					<div class="servise-type">
 						<div class="servise-type__top">
-							<h3>Сервис Авто</h3>
-							<img class="svg" src="img/service1.svg" alt="service">
+							<h3>Водомоторная техника</h3>
+							<img class="svg" src="img/types/gbo.svg" alt="service">
+						</div>
+						<div class="servise-type__descr">
+							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
+							Для выработки тока или подачи воды, а также для перевозки... </p>
+							<p>Honda Crosstour — это уникальный автомобиль, создающий собственный сегмент и представляющий новый класс автомобилей. Оригинальная модель сочетает лучшие качества седана и SUV. Автомобиль демонстрирует великолепную топливную. </p>
+							<p>Crosstour — это настоящий автомобиль «гран-туризмо», сочетающий в себе черты практичного универсала, просторного купе и большого кроссовера. Городские кроссоверы — динамично развивающийся сегмент автомобильного рынка, и Crosstour способен подарить Вам истинное </p>
+						</div>
+					</div>
+					<div class="servise-type">
+						<div class="servise-type__top">
+							<h3>Установка ГБО</h3>
+							<img class="svg" src="img/types/gbo.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -88,6 +100,5 @@
 		</div>
 	</div>
 </div>
-<?php include("templates/fortuna-group.php") ?>
 <?php include("templates/footer.php") ?>
 <?php include("templates/scripts.php") ?>

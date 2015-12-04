@@ -75,6 +75,7 @@
 					<a href="#"><img class="svg" src="img/facebook.svg" alt="facebook"></a>
 					<a href="#"><img class="svg" src="img/vk.svg" alt="vk"></a>
 					<a href="#"><img class="svg" src="img/google.svg" alt="google"></a>
+					<a href="#"><img class="svg" src="img/insta.svg" alt="insta"></a>
 				</div>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-﻿<!-- fortuna-group start -->
+<!-- fortuna-group start -->
 <div class="fortuna-group">
 	<div class="fortuna-group__main-block">
 		<img src="img/honda.png" height="17" width="143" alt="honda">

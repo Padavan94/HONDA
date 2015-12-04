@@ -12,19 +12,9 @@
 					<a href="#">
 						<span class="service-page__borders"></span>
 						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
+							<img class="svg" src="img/service/serv_type.svg" alt="auto">
 						</div>
-						<div class="service-page__button">			Автомобили
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
-					<a href="#">
-						<span class="service-page__borders"></span>
-						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
-						</div>
-						<div class="service-page__button">			Автомобили
+						<div class="service-page__button">Виды услуг сервисного центра
 						</div>
 					</a>
 				</div>
@@ -32,19 +22,10 @@
 					<a href="#">
 						<span class="service-page__borders"></span>
 						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
+							<img class="svg" src="img/service/prices.svg" alt="prices">
 						</div>
-						<div class="service-page__button">			Автомобили
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
-					<a href="#">
-						<span class="service-page__borders"></span>
-						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
-						</div>
-						<div class="service-page__button">			Автомобили
+						<div class="service-page__button">
+							Цены на обслуживание
 						</div>
 					</a>
 				</div>
@@ -52,19 +33,10 @@
 					<a href="#">
 						<span class="service-page__borders"></span>
 						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
+							<img class="svg" src="img/service/diagnos.svg" alt="diagnos">
 						</div>
-						<div class="service-page__button">			Автомобили
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
-					<a href="#">
-						<span class="service-page__borders"></span>
-						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
-						</div>
-						<div class="service-page__button">			Автомобили
+						<div class="service-page__button">
+							Предпокупочная диагностика
 						</div>
 					</a>
 				</div>
@@ -72,19 +44,10 @@
 					<a href="#">
 						<span class="service-page__borders"></span>
 						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
+							<img class="svg" src="img/service/spec_serv.svg" alt="auto">
 						</div>
-						<div class="service-page__button">			Автомобили
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
-					<a href="#">
-						<span class="service-page__borders"></span>
-						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
-						</div>
-						<div class="service-page__button">			Автомобили
+						<div class="service-page__button">
+							Специальные сервисные компании
 						</div>
 					</a>
 				</div>
@@ -92,9 +55,54 @@
 					<a href="#">
 						<span class="service-page__borders"></span>
 						<div class="service-page__item-top-part">
-							<img class="svg" src="img/auto.svg" alt="auto">
+							<img class="svg" src="img/service/garanty.svg" alt="auto">
 						</div>
-						<div class="service-page__button">			Автомобили
+						<div class="service-page__button">
+							Гарантия
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
+					<a href="#">
+						<span class="service-page__borders"></span>
+						<div class="service-page__item-top-part">
+							<img class="svg" src="img/service/kuzov.svg" alt="auto">
+						</div>
+						<div class="service-page__button">
+							Кузовной ремонт
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
+					<a href="#">
+						<span class="service-page__borders"></span>
+						<div class="service-page__item-top-part">
+							<img class="svg" src="img/service/install.svg" alt="auto">
+						</div>
+						<div class="service-page__button">
+							Установка ГБО
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
+					<a href="#">
+						<span class="service-page__borders"></span>
+						<div class="service-page__item-top-part">
+							<img class="svg" src="img/service/oval.svg" alt="auto">
+						</div>
+						<div class="service-page__button">
+							Шины
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 hvr-shutter-out-vertical service-page__item service-page__item--mod">
+					<a href="#">
+						<span class="service-page__borders"></span>
+						<div class="service-page__item-top-part">
+							<img class="svg" src="img/service/programm.svg" alt="auto">
+						</div>
+						<div class="service-page__button">
+							Программа лояльности
 						</div>
 					</a>
 				</div>
@@ -109,6 +117,5 @@
 		<!-- bottom-slider-wrapper end -->
 	</div>
 </div>
-<?php include("templates/fortuna-group.php") ?>
 <?php include("templates/footer.php") ?>
 <?php include("templates/scripts.php") ?>

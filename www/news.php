@@ -1,6 +1,7 @@
 ﻿<?php include("templates/header.php") ?>
-<?php include("templates/navigation.php") ?>
+<?php include("templates/navigation-mini.php") ?>
 <?php include("templates/main-navigation.php") ?>
+
 <div class="main-wrapper clearfix">
 	<div class="container">
 		<div class="catalog-wrapper clearfix">

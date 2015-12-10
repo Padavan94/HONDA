@@ -1,5 +1,5 @@
 <?php include("templates/header.php") ?>
-<?php include("templates/navigation.php") ?>
+<?php include("templates/navigation-mini.php") ?>
 <?php include("templates/main-navigation.php") ?>
  <!-- main-wrapper start -->
 <div class="main-wrapper clearfix ">

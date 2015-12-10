@@ -1,5 +1,5 @@
 <?php include("templates/header.php") ?>
-<?php include("templates/navigation.php") ?>
+<?php include("templates/navigation-mini.php") ?>
 <?php include("templates/main-navigation.php") ?>
 <div class="main-wrapper clearfix">
 	<div class="container">
@@ -56,10 +56,6 @@
 									<h5>HONDA Civic <br> седан </h5>
 									<div class="row">
 										<div class="col-md-6 product-description__character">
-											<div class="character">
-												<span>Пробег</span>
-												<span><b>12 km</b></span>
-											</div>
 											<div class="character">
 												<span>Год выпуска:</span>
 												<span><b>2015</b></span>

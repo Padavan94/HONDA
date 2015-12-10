@@ -1,5 +1,5 @@
 ﻿<?php include("templates/header.php") ?>
-<?php include("templates/navigation.php") ?>
+<?php include("templates/navigation-mini.php") ?>
 <?php include("templates/main-navigation.php") ?>
 <div class="main-wrapper clearfix">
 	<div class="container">
@@ -38,7 +38,7 @@
 					<div class="servise-type">
 						<div class="servise-type__top">
 							<h3>Сервис Силовая Техника</h3>
-							<img class="svg" src="img/types/gbo.svg" alt="service">
+							<img class="svg" src="img/types/power.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -50,7 +50,7 @@
 					<div class="servise-type">
 						<div class="servise-type__top">
 							<h3>Авто запчасти</h3>
-							<img class="svg" src="img/types/gbo.svg" alt="service">
+							<img class="svg" src="img/types/autodet.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 
@@ -74,7 +74,7 @@
 					<div class="servise-type">
 						<div class="servise-type__top">
 							<h3>Водомоторная техника</h3>
-							<img class="svg" src="img/types/gbo.svg" alt="service">
+							<img class="svg" src="img/types/aqua.svg" alt="service">
 						</div>
 						<div class="servise-type__descr">
 							<p>Продукция промышленной группы - незаменимые помощники, сопровождающие Вас как на работе, так и на отдыхе. 

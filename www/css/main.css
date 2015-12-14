@@ -1742,4 +1742,154 @@ body {
     width: 100%;
     height: auto; }
 
+.flexable {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  text-align: center;
+  border: 1px solid #d1d1d1;
+  border-style: outset;
+  padding: 5px 15px;
+  flex-wrap: wrap; }
+
+.ta-l {
+  justify-content: flex-start;
+  text-align: left; }
+
+.del-border {
+  border-right: 0;
+  border-left: 0; }
+
+.main-red {
+  color: #ed1c2f; }
+
+.bg-gray {
+  color: #fff;
+  background-color: #aaa; }
+
+.bg-pink {
+  background-color: #ffd2d6; }
+
+.tehnical-character {
+  font-family: "Opensans-r"; }
+  .tehnical-character__complectaition {
+    font-family: "Opensans-sb";
+    text-align: center;
+    padding: 17px;
+    background-color: #e0e0e0;
+    text-align: left; }
+    .tehnical-character__complectaition .castom-cb + label {
+      text-decoration: none; }
+      .tehnical-character__complectaition .castom-cb + label:before {
+        top: 0;
+        background-color: #fff; }
+    .tehnical-character__complectaition--check {
+      display: inline-block;
+      margin-right: 25px;
+      margin-bottom: 4px; }
+  .tehnical-character__table {
+    font-size: 12px;
+    font-family: "Opensans-r";
+    border: 1px solid #d1d1d1; }
+    .tehnical-character__table .inner-wrapper {
+      overflow: auto; }
+    .tehnical-character__table--column {
+      padding-left: 0;
+      padding-right: 0; }
+    .tehnical-character__table--header {
+      text-align: left;
+      font-size: 14px;
+      position: relative;
+      height: 54px;
+      border-right: 0;
+      border-left: 0; }
+      .tehnical-character__table--header a {
+        color: #ed1c2f;
+        text-decoration: underline; }
+        .tehnical-character__table--header a:hover {
+          text-decoration: none; }
+    .tehnical-character__table--close {
+      width: 14px;
+      height: 14px;
+      background-color: #ed1c2f;
+      color: #fff;
+      font-size: 10px;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      right: 4px;
+      top: 50%;
+      margin-top: -7px;
+      line-height: 1;
+      cursor: pointer;
+      border-radius: 2px; }
+      .tehnical-character__table--close span {
+        margin: auto;
+        position: relative;
+        top: -1px; }
+      .tehnical-character__table--close:hover {
+        background-color: #d21425; }
+  .tehnical-character__header {
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 14px;
+    border: 1px solid #d1d1d1; }
+    .tehnical-character__header a {
+      color: #ed1c2f;
+      text-decoration: underline; }
+      .tehnical-character__header a:hover {
+        text-decoration: none; }
+    .tehnical-character__header--row {
+      position: relative; }
+    .tehnical-character__header--close {
+      width: 14px;
+      height: 14px;
+      background-color: #ed1c2f;
+      color: #fff;
+      font-size: 10px;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -7px;
+      line-height: 1;
+      cursor: pointer;
+      border-radius: 2px; }
+      .tehnical-character__header--close span {
+        margin: auto;
+        position: relative;
+        top: -1px; }
+      .tehnical-character__header--close:hover {
+        background-color: #d21425; }
+  .tehnical-character__price-row {
+    font-family: "Opensans-r";
+    color: #ed1c2f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; }
+
 /*# sourceMappingURL=main.css.map */

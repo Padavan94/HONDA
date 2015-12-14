@@ -97,6 +97,10 @@ $(document).ready(function() {
         $(this).next(".product__acardion--hidden").slideToggle("slow").toggleClass('active');
        
     });
+    //close character
+    $(".tehnical-character__table--close").click(function() {
+        $(this).parent().parent().hide("slow");
+    });
 
 	forSVG();
 });
